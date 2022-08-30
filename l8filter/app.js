@@ -23,7 +23,7 @@ function filter(){
 
 	for(var x=0; x < getli.length; x++){
 		// console.log(getli[x]);
-		// console.log(getli[x].querySelector('a').innerText.totLowerCase());
+		// console.log(getli[x].querySelector('a').innerText.toLowerCase());
 		// console.log(getli[x].getElementsByTagName('a')[0].textContent.toLowerCase());
 
 		var getavalue = getli[x].querySelector('a').innerText.toLowerCase();
